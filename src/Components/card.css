@@ -1,0 +1,64 @@
+.img{
+    transform : scale(1.5);
+    margin: 20px auto 0;
+}
+
+.text{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.work{
+    width: fit-content;
+    background: #f2f7f2;
+    padding: 5px 12px;
+    max-width: 200px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.jobs{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: fit-content !important;
+    padding: 10px ;
+    border: solid 1px #d5e0d5;
+    border-radius: 10px !important;
+    width: 250px !important;
+    height: 250px;
+    cursor: pointer;
+    text-align: center;
+}
+.card button{
+    height: 100%;
+}
+
+.circluar{
+    text-align: center;
+}
+
+.cards{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.select{
+    width: fit-content;
+    margin: 20px auto;
+}
+.select div{
+    width: 200px;
+}
+
+.single{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
